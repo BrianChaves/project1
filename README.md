@@ -14,7 +14,7 @@ El sistema debe cumplir con los siguientes requisitos:
 - Implementar páginas dinámicas en el servidor utilizando el patrón Modelo-Vista-Controlador mediante Servlets y JSPs (Java Server Pages).
 - Implementar control de acceso mediante sesiones en el servidor utilizando un usuario y una clave. Solo se habilitarán las funcionalidades correspondientes al rol del usuario.
 - Utilizar el framework Spring Boot, junto con Spring Security, para el desarrollo del proyecto.
-- Utilizar una base de datos H2.
+- Se utilizar una base de datos H2.
 
 ### Funcionalidades
 
@@ -30,4 +30,3 @@ El sistema contará con las siguientes funcionalidades:
 8. **Administrador-Gestión de Marcas y Modelos**: Los administradores podrán listar las marcas y modelos de autos, así como agregar nuevos registros. Al registrar un modelo de auto, se deberá incluir una imagen correspondiente.
 9. **Administrador-Gestión de Categorías y Coberturas**: Los administradores podrán listar las categorías y coberturas disponibles, y también agregar nuevos registros. Cada categoría tendrá una identificación autogenerada y una descripción. Cada cobertura pertenecerá a una categoría y tendrá una identificación autogenerada, una descripción y un costo (mínimo y porcentual del valor asegurado, aplicando el mayor).
 
-Recuerda que este proyecto se desarrollará en grupos y utilizará el framework Spring Boot, junto con Spring Security, y una base de datos H2.
